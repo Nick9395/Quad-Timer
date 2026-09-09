@@ -1,0 +1,40 @@
+:root {
+  color-scheme: dark;
+  --bg: #111111;
+  --bg-panel: #1a1a1a;
+  --lime: #c8ff2e;
+  --lime-dim: #8fbf22;
+  --lime-text: #111111;
+  --purple: #6b4cff;
+  --purple-text: #c9b8ff;
+  --yellow: #ffe14a;
+  --muted: #d8d8d8;
+  --input-bg: #5a5a5a;
+  --danger: #ff6b6b;
+  --radius: 10px;
+  --font: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--muted);
+  font-family: var(--font);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+#app {
+  min-height: 100dvh;
+}
